@@ -10,9 +10,6 @@ class PortfolioTrailingBodyScreen extends StatelessWidget {
     return Container(
       height: context.height() - 180,
       width: context.width(),
-      
-
-
       decoration: const BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10))),
       child: content,
     );
