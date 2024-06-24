@@ -20,7 +20,7 @@ class Portfolio extends ConsumerWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       routerConfig: coreRoute,
-      title: Const.appName,
+      title: "fazil.com",
       scrollBehavior: const MaterialScrollBehavior().copyWith(dragDevices: {PointerDeviceKind.mouse, PointerDeviceKind.touch, PointerDeviceKind.stylus, PointerDeviceKind.unknown}),
       themeMode: ref.watch(portfolioVM).isLightTheme ? ThemeMode.light : ThemeMode.dark,
       theme: AppTheme.getThemeData(ThemeMode.light),
