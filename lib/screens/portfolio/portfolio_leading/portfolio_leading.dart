@@ -14,7 +14,7 @@ class PortfolioLeading extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(8.0),
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: PortColor.primary),
-      height: context.height() - 120,
+      height: context.height() - 100,
       child: Column(
         children: [
           50.height,

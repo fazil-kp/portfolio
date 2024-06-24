@@ -17,7 +17,7 @@ class PortfolioTrailing extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Container(
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: PortColor.primary),
-      height: context.height() - 120,
+      height: context.height() - 100,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
