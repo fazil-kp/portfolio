@@ -9,9 +9,6 @@ class PortfolioLeadingFooterIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      child: CircleAvatar(radius: 15, backgroundColor: PortColor.secondary, child: icon),
-    );
+    return InkWell(onTap: onTap, child: CircleAvatar(radius: 15, backgroundColor: PortColor.secondary, child: icon));
   }
 }
