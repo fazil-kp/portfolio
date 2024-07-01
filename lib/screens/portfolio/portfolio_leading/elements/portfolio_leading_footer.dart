@@ -19,7 +19,6 @@ class PortfolioLeadingFooter extends StatelessWidget {
         10.width,
         PortfolioLeadingFooterIcon( icon: Image.network("https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png", height: 20, width: 20), onTap: () async { final url = Uri.parse('https://www.hackerrank.com/profile/mfazilkp7'); await launchUrl(url); }, ),
         10.width,
-        
         PortfolioLeadingFooterIcon( icon: Image.network('https://img.icons8.com/color/48/000000/youtube.png', height: 20, width: 20), onTap: () async { final url = Uri.parse('https://www.youtube.com/channel/UCVqYXdZZAwP2dkEDPHXVgSA'); await launchUrl(url); }, ),
       ],
     );
