@@ -21,7 +21,6 @@ class PortfolioLeadingFooter extends StatelessWidget {
         10.width,
 
 
-
         
         PortfolioLeadingFooterIcon( icon: Image.network('https://img.icons8.com/color/48/000000/youtube.png', height: 20, width: 20), onTap: () async { final url = Uri.parse('https://www.youtube.com/channel/UCVqYXdZZAwP2dkEDPHXVgSA'); await launchUrl(url); }, ),
       ],
