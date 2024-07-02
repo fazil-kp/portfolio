@@ -63,7 +63,6 @@ class PortfolioTrailing extends ConsumerWidget {
 
 
 
-
           
           Expanded(
             child: IndexedStack(
