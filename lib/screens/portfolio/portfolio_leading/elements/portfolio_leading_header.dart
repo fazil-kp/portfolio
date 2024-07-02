@@ -15,20 +15,7 @@ class PortfolioLeadingHeader extends StatelessWidget {
         20.height,
         Text('MOHAMMED FAZIL KP', style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: PortColor.white, fontSize: 20, fontWeight: FontWeight.bold)),
         20.height,
-        CarouselSlider(
-          options: CarouselOptions(autoPlay: true, autoPlayInterval: const Duration(seconds: 2), enlargeCenterPage: true, height: 40),
-          items: ['Software Developer', 'Flutter Developer', 'UI/UX Designer', 'Content Creator'].map((i) {
-            return Builder(
-              builder: (BuildContext context) {
-                return Container(
-                  padding: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: PortColor.secondary),
-                  child: Text(i, style: Theme.of(context).textTheme.bodySmall?.copyWith(color: PortColor.white, fontSize: 14, fontWeight: FontWeight.bold)),
-                );
-              },
-            );
-          }).toList(),
-        ),
+        CarouselSlider( options: CarouselOptions(autoPlay: true, autoPlayInterval: const Duration(seconds: 2), enlargeCenterPage: true, height: 40), items: ['Software Developer', 'Flutter Developer', 'UI/UX Designer', 'Content Creator'].map((i) { return Builder( builder: (BuildContext context) { return Container( padding: const EdgeInsets.all(10), decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: PortColor.secondary), child: Text(i, style: Theme.of(context).textTheme.bodySmall?.copyWith(color: PortColor.white, fontSize: 14, fontWeight: FontWeight.bold)), ); }, ); }).toList(), ),
         20.height,
         Padding(padding: const EdgeInsets.only(left: 40, right: 40), child: Divider(color: PortColor.secondary)),
       ],
