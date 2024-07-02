@@ -20,9 +20,7 @@ class PortfolioMainScreen extends ConsumerWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              const Expanded(flex: 1, child: PortfolioLeading()),
-              20.width,
-              const Expanded(flex: 3, child: PortfolioTrailing()),
+              const Expanded(flex: 1, child: PortfolioLeading()), 20.width, const Expanded(flex: 3, child: PortfolioTrailing()),
             ],
           ),
         ],

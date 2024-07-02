@@ -17,13 +17,7 @@ class PortfolioLeading extends StatelessWidget {
       height: context.height() - 100,
       child: Column(
         children: [
-          50.height,
-          const PortfolioLeadingHeader(),
-          20.height,
-          const PortfolioLeadingBody(),
-          const Spacer(),
-          const PortfolioLeadingFooter(),
-          20.height,
+          50.height, const PortfolioLeadingHeader(), 20.height, const PortfolioLeadingBody(), const Spacer(), const PortfolioLeadingFooter(), 20.height,
         ],
       ),
     );
