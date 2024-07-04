@@ -15,10 +15,7 @@ final GoRouter coreRoute = GoRouter(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(
-              onPressed: () => context.go("/"),
-              child: const Text("Back"),
-            ),
+            ElevatedButton( onPressed: () => context.go("/"), child: const Text("Back"), ),
           ],
         ),
       ),
