@@ -40,12 +40,22 @@ List<RouteBase> _buildRoutes() {
         },
         child: const CustomScaffold(),
       ),
-      routes: [
-        ..._mainRoutes(),
-      ],
+      routes: [ ..._mainRoutes() ],
     ),
   ];
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 Future<bool> login() async {
   return true;
