@@ -35,9 +35,7 @@ List<RouteBase> _buildRoutes() {
       parentNavigatorKey: Const.navigatorKey,
       pageBuilder: (context, state) => CustomTransitionPage(
         key: state.pageKey,
-        transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          return FadeTransition(opacity: CurveTween(curve: Curves.easeInOutSine).animate(animation), child: child);
-        },
+        transitionsBuilder: (context, animation, secondaryAnimation, child) { return FadeTransition(opacity: CurveTween(curve: Curves.easeInOutSine).animate(animation), child: child); },
         child: const CustomScaffold(),
       ),
       routes: [ ..._mainRoutes() ],
@@ -59,9 +57,7 @@ List<GoRoute> _mainRoutes() {
         name: mainCoreRoute.routeName,
         pageBuilder: (BuildContext context, GoRouterState state) => CustomTransitionPage(
           key: state.pageKey,
-          transitionsBuilder: (context, animation, secondaryAnimation, child) {
-            return FadeTransition(opacity: CurveTween(curve: Curves.easeInOutSine).animate(animation), child: child);
-          },
+          transitionsBuilder: (context, animation, secondaryAnimation, child) { return FadeTransition(opacity: CurveTween(curve: Curves.easeInOutSine).animate(animation), child: child); },
           child: mainCoreRoute.widget!,
         ),
       ),
