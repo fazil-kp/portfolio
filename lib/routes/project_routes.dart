@@ -25,7 +25,6 @@ final GoRouter coreRoute = GoRouter(
   routes: _buildRoutes(),
 );
 
-
 List<RouteBase> _buildRoutes() {
   return [
     GoRoute(
