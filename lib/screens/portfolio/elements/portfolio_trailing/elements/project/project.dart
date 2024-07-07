@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
-import '../../../../helpers/portfolio_colors.dart';
-import '../../../../common_widgets/portfolio_trailing_body_screen.dart';
+import '../../../../../../helpers/portfolio_colors.dart';
+import '../../../../../../common_widgets/portfolio_trailing_body_screen.dart';
 
 class Project extends StatelessWidget {
   const Project({super.key});

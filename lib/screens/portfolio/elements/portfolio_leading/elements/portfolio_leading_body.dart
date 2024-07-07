@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../../../common_widgets/portfolio_leading_body_card.dart';
+import '../../../../../common_widgets/portfolio_leading_body_card.dart';
 
 class PortfolioLeadingBody extends StatelessWidget {
   const PortfolioLeadingBody({super.key});

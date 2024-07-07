@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:nb_utils/nb_utils.dart';
 
-import 'portfolio_leading/portfolio_leading.dart';
-import 'portfolio_trailing/portfolio_trailing.dart';
+import 'elements/portfolio_leading/portfolio_leading.dart';
+import 'elements/portfolio_trailing/portfolio_trailing.dart';
 
 class PortfolioMainScreen extends ConsumerWidget {
   const PortfolioMainScreen({super.key});

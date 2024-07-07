@@ -3,12 +3,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:portfolio/view_model/portfolio_vm.dart';
 
-import '../../../common_widgets/hover_text.dart';
-import '../../../helpers/portfolio_colors.dart';
-import 'about/about.dart';
-import 'contact/contact.dart';
-import 'project/project.dart';
-import 'service/service.dart';
+import '../../../../common_widgets/hover_text.dart';
+import '../../../../helpers/portfolio_colors.dart';
+import 'elements/about/about.dart';
+import 'elements/contact/contact.dart';
+import 'elements/project/project.dart';
+import 'elements/service/service.dart';
 
 class PortfolioTrailing extends ConsumerWidget {
   const PortfolioTrailing({super.key});

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../../../common_widgets/portfolio_leading_footer_icon.dart';
+import '../../../../../common_widgets/portfolio_leading_footer_icon.dart';
 
 class PortfolioLeadingFooter extends StatelessWidget {
   const PortfolioLeadingFooter({super.key});

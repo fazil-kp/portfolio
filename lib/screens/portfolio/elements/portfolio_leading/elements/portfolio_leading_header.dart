@@ -2,7 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
-import '../../../../helpers/portfolio_colors.dart';
+import '../../../../../helpers/portfolio_colors.dart';
 
 class PortfolioLeadingHeader extends StatelessWidget {
   const PortfolioLeadingHeader({super.key});
